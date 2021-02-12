@@ -1,10 +1,12 @@
 import './App.css';
-import React, { useState, useContext } from 'react'
+import React, { } from 'react'
 
 import Portfolio from './Portfolio.js'
 import Contact from './Contact.js'
 import Homepage from './Homepage.js'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import CV from './CV.js'
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 const App = () => {
@@ -20,6 +22,9 @@ const App = () => {
         <Route path="/" exact component={Homepage} />
         <Route path="/portfolio" exact component={Portfolio} />
         <Route path="/contact" exact component={Contact}/>
+        <Route path="/CV" exact component={CV}/>
+
+        
 
       </Switch>
     </div>

@@ -84,6 +84,8 @@ const Homepage = () => {
                                 )}
                             </Link>
 
+                            <Link to="/CV" style={{ textDecoration: 'none', textDecorationColor: 'none' }}>
+
                             <li className={home.liStyle}
                                 onMouseEnter={() => setShowArrowSecond(true)}
                                 onMouseLeave={() => setShowArrowSecond(false)} >
@@ -93,6 +95,7 @@ const Homepage = () => {
                                     </i>
                                 )}
                             </li>
+                            </Link>
 
                             <Link to="/contact" style={{ textDecoration: 'none', textDecorationColor: 'none' }}>
 
@@ -122,7 +125,9 @@ const Homepage = () => {
                                 <a href="https://github.com/Hanna98">
                                     <div className={home.icons}> <FontAwesomeIcon icon={['fab', 'github']} /> </div>
                                 </a>
-                                <div className={home.icons}> <FontAwesomeIcon icon={['fab', 'linkedin']} /> </div>
+                                <a href="https://www.linkedin.com/in/hanna-abdulalim1998/">
+                                    <div className={home.icons}> <FontAwesomeIcon icon={['fab', 'linkedin']} /> </div>
+                                </a>
                                 <div className={home.icons}> <FontAwesomeIcon icon={['fas', 'envelope']} /> </div>
 
                             </div>

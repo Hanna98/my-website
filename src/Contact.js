@@ -1,8 +1,7 @@
 
 import contact from './Contact.module.css';
 
-import Homepage from './Homepage';
-
+gi
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
